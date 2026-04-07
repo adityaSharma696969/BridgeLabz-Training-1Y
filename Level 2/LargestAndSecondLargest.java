@@ -2,7 +2,7 @@ import java.util.Scanner;
 class LargestAndSecondLargest{
 	public static void main(String args[]){
 		Scanner input = new Scanner(System.in);
-		int max_digit=10;
+		int max_digit=10; 
 		int[] array = new int[10];
 		int array_index = 0;
 		int largest=0;
