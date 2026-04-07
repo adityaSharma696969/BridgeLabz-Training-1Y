@@ -22,7 +22,7 @@ class LargestAndSecondLargest{
 				largest=array[i];
 			}
 		}
-		for(int i=0;i<array.length;i++){ // 5 4 3 2 1 :- if 5>0 treu and 5>5 true again if arr i != largest num then save sceond larget
+		for(int i=0;i<array.length;i++){ 
 			if(array[i]>second_largest && largest>second_largest){
 				if(array[i]!=largest){
 					second_largest=array[i];
